@@ -1,0 +1,11 @@
+.listing-featured-badge {
+	@extend .listify-badge;
+}
+
+.style-grid .listing-featured-badge {
+	margin-bottom: 1em;
+}
+
+.listing-featured--outline .listing-featured-badge {
+	display: none;
+}

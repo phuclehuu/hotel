@@ -1,0 +1,22 @@
+.job-package-purchase {
+	margin-top: 2em;
+
+	a {
+		padding: 12px 20px;
+	}
+}
+
+.job-package-header .job-package-purchase {
+	display: none;
+}
+
+@include bp(md) {
+	.job-package-purchase--stacked {
+		display: none;
+	}
+
+	.job-package-header--stacked .job-package-purchase--stacked {
+		display: block;
+		margin-top: 1em;
+	}
+}

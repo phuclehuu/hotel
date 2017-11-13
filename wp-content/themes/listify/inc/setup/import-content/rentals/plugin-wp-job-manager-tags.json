@@ -1,0 +1,58 @@
+[
+	{
+		"id": "tag-bike-parking",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_tag",
+			"name": "Bike Parking"
+		}
+	},
+	{
+		"id": "tag-cable-tv",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_tag",
+			"name": "Cable TV"
+		}
+	},
+	{
+		"id": "tag-kitchen",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_tag",
+			"name": "Kitchen"
+		}
+	},
+	{
+		"id": "tag-pool",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_tag",
+			"name": "Pool"
+		}
+	},
+	{
+		"id": "tag-tv",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_tag",
+			"name": "TV"
+		}
+	},
+	{
+		"id": "tag-washer",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_tag",
+			"name": "Washer"
+		}
+	},
+	{
+		"id": "tag-wifi",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_tag",
+			"name": "Wireless Internet"
+		}
+	}
+]

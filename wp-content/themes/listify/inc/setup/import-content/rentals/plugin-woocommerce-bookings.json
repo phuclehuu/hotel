@@ -1,0 +1,66 @@
+[
+	{
+		"id": "rental-booking",
+		"type": "object",
+		"priority": 20,
+		"data": {
+			"post_type": "product",
+			"post_title": "Rental Booking",
+			"post_content": "",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1446144525544-808f420174ec.jpg",
+			"comment_status": "closed",
+			"price": "",
+			"terms": {
+				"product_type": "booking"
+			},
+			"media": [
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1459515581694-46b4d817903b.jpg",
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1463620695885-8a91d87c53d0.jpg"
+			],
+			"meta": {
+				"_downloadable": "no",
+				"_virtual": "no",
+				"purchase_note": "",
+				"_featured": "no",
+				"_price": "169",
+				"_wc_booking_has_persons": "yes",
+				"_wc_booking_person_qty_multiplier": "no",
+				"_wc_booking_person_cost_multiplier": "no",
+				"_wc_booking_min_persons_group": 1,
+				"_wc_booking_max_persons_group": 3,
+				"_wc_booking_has_person_types": "no",
+				"_wc_booking_has_resources": "no",
+				"_wc_booking_calendar_display_mode": "always_visible",
+				"_wc_booking_requires_confirmation": "no",
+				"_wc_booking_user_can_cancel": "yes",
+				"_wc_booking_cancel_limit": 5,
+				"_wc_booking_cancel_limit_unit": "day",
+				"_wc_booking_max_date": 12,
+				"_wc_booking_max_date_unit": "month",
+				"_wc_booking_min_date": "",
+				"_wc_booking_min_date_unit": "month",
+				"_wc_booking_qty": 90,
+				"_wc_booking_base_cost": 169,
+				"_wc_booking_display_cost": 169,
+				"_wc_display_cost": 169,
+				"_wc_booking_duration_type": "fixed",
+				"_wc_booking_duration": 1,
+				"_wc_booking_duration_unit": "day",
+				"_wc_booking_default_date_availability": "available",
+				"_has_additional_costs": "no",
+				"_wc_booking_min_duration": 1,
+				"_wc_booking_max_duration": 10,
+				"_wc_booking_availability": [
+					{
+						"type": "custom",
+						"bookable": "yes",
+						"priority": 10,
+						"from": "2016-09-14",
+						"to": "2018-04-29"
+					}
+				],
+				"_wc_booking_pricing": []
+			}
+		}
+	}
+]

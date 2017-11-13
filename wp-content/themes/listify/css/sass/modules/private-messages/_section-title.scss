@@ -1,0 +1,7 @@
+.entry-content .pm-section-title {
+	@extend .section-title;
+}
+
+.pm-action-row + .pm-section-title:first-of-type {
+	margin-top: 2em;
+}

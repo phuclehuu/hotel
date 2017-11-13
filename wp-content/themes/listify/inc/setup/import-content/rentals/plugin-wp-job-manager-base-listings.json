@@ -1,0 +1,446 @@
+[
+	{
+		"id": "highrise-shared-bedroom",
+		"type": "object",
+		"priority": 100,
+		"data": {
+			"post_title": "High Rise Shared Bedroom",
+			"post_type": "job_listing",
+			"post_content": "Renting, also known as hiring or letting, is an agreement where a payment is made for the temporary use of a good, service or property owned by another. A gross lease is when the tenant pays a flat rental amount and the landlord pays for all property charges regularly incurred by the ownership.\n\nShort-term rental of all sorts of products (excluding real estate and holiday apartments) is expected to grow further as the internet makes it easier to find specific items available for rent. According to a poll, 76% of people looking to rent would go to the internet first to find what they need; rise to 88% for those aged 25–34.",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1473339478549-efdcad0e752c.jpg",
+			"location": {
+				"address": "Chicago, IL, USA",
+				"city": "Chicago",
+				"country_long": "United States",
+				"country_short": "US",
+				"latitude": 41.8781136,
+				"longitude": -87.62979819999998,
+				"state": "Illinois",
+				"state_short": "IL",
+				"street_number": "",
+				"postcode": ""
+			},
+			"products": [ "rental-booking" ],
+			"media": [
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1473662423067-e88544ee8418.jpg",
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1460533893735-45cea2212645.jpg"
+			],
+			"meta": {
+				"_job_author": 1,
+				"_application": "listify@mailinator.com",
+				"_claimed": 1,
+				"_average_rating": 4.5,
+				"rating": 4.5
+			},
+			"terms": {
+				"job_listing_category": [ "shared-room" ],
+				"job_listing_tag": [ "bike-parking", "kitchen", "cable-tv", "wireless-internet" ],
+				"job_listing_region": [ "chicago" ]
+			},
+			"comments": {
+				"comment-jude-4": {
+					"comment_author": "Jude",
+					"comment_author_email": "listify@mailinator.com",
+					"comment_content": "Such a lovely place. The host met us at agreed time, showed us everything. The apartment is conveniently located, a short walk to subway, shops, and restaurants. Wi fi worked well. We had a great time. Definitely!",
+					"meta": {
+						"rating": 4,
+						"star-rating-0": 5,
+						"star-rating-1": 5,
+						"star-rating-2": 4.5,
+						"star-rating-3": 4.5,
+						"star-rating-4": 5,
+						"star-rating-5": 5,
+						"review_average": 4.5,
+						"review_categories": [ "Accuracy", "Communication", "Cleanliness", "Location", "Check In", "Value" ]
+					}
+				},
+				"comment-spencer-4": {
+					"comment_author": "Cody",
+					"comment_author_email": "listify@mailinator.com",
+					"comment_content": "What can I say about this place that hasn’t already been said in other reviews? Fantastic space with gorgeous furnishings. Dino was very helpful whenever needed. Looking forward to staying here again when I’m in town. Top quality. Amazing!",
+					"meta": {
+						"rating": 5,
+						"star-rating-0": 5,
+						"star-rating-1": 5,
+						"star-rating-2": 4.5,
+						"star-rating-3": 4.5,
+						"star-rating-4": 5,
+						"star-rating-5": 5,
+						"review_average": 4.5,
+						"review_categories": [ "Accuracy", "Communication", "Cleanliness", "Location", "Check In", "Value" ]
+					}
+				}
+			}
+		}
+	},
+	{
+		"id": "luxury-studio-facing-skyline",
+		"type": "object",
+		"priority": 100,
+		"data": {
+			"post_title": "Luxury Studio Facing Skyline",
+			"post_type": "job_listing",
+			"post_content": "Renting, also known as hiring or letting, is an agreement where a payment is made for the temporary use of a good, service or property owned by another. A gross lease is when the tenant pays a flat rental amount and the landlord pays for all property charges regularly incurred by the ownership.\n\nShort-term rental of all sorts of products (excluding real estate and holiday apartments) is expected to grow further as the internet makes it easier to find specific items available for rent. According to a poll, 76% of people looking to rent would go to the internet first to find what they need; rise to 88% for those aged 25–34.",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1464146072230-91cabc968266.jpg",
+			"location": {
+				"address": "Los Angeles, CA, USA",
+				"city": "Los Angeles",
+				"country_long": "United States",
+				"country_short": "US",
+				"latitude": 34.0522342,
+				"longitude": -118.2436849,
+				"state": "California",
+				"state_short": "CA",
+				"street_number": "",
+				"postcode": ""
+			},
+			"products": [ "rental-booking" ],
+			"media": [
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1449844908441-8829872d2607.jpg",
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1473233471576-4fe986dc7413.jpg"
+			],
+			"meta": {
+				"_job_author": 1,
+				"_application": "listify@mailinator.com",
+				"_claimed": 1,
+				"_average_rating": 4.5,
+				"rating": 4.5
+			},
+			"terms": {
+				"job_listing_category": [ "entire-home" ],
+				"job_listing_tag": [ "bike-parking", "kitchen", "cable-tv", "wireless-internet" ],
+				"job_listing_region": [ "los-angeles" ]
+			},
+			"comments": {
+				"comment-jude-1": {
+					"comment_author": "Jude",
+					"comment_author_email": "listify@mailinator.com",
+					"comment_content": "Such a lovely place. The host met us at agreed time, showed us everything. The apartment is conveniently located, a short walk to subway, shops, and restaurants. Wi fi worked well. We had a great time. Wow!",
+					"meta": {
+						"rating": 4,
+						"star-rating-0": 5,
+						"star-rating-1": 5,
+						"star-rating-2": 4.5,
+						"star-rating-3": 4.5,
+						"star-rating-4": 5,
+						"star-rating-5": 5,
+						"review_average": 4.5,
+						"review_categories": [ "Accuracy", "Communication", "Cleanliness", "Location", "Check In", "Value" ]
+					}
+				},
+				"comment-spencer-12": {
+					"comment_author": "Cody",
+					"comment_author_email": "listify@mailinator.com",
+					"comment_content": "What can I say about this place that hasn’t already been said in other reviews? Fantastic space with gorgeous furnishings. Dino was very helpful whenever needed. Looking forward to staying here again when I’m in town. Top quality. Superb!",
+					"meta": {
+						"rating": 5,
+						"star-rating-0": 5,
+						"star-rating-1": 5,
+						"star-rating-2": 4.5,
+						"star-rating-3": 4.5,
+						"star-rating-4": 5,
+						"star-rating-5": 5,
+						"review_average": 4.5,
+						"review_categories": [ "Accuracy", "Communication", "Cleanliness", "Location", "Check In", "Value" ]
+					}
+				}
+			}
+		}
+	},
+	{
+		"id": "modern-loft-room",
+		"type": "object",
+		"priority": 100,
+		"data": {
+			"post_title": "Modern Loft Room",
+			"post_type": "job_listing",
+			"post_content": "Renting, also known as hiring or letting, is an agreement where a payment is made for the temporary use of a good, service or property owned by another. A gross lease is when the tenant pays a flat rental amount and the landlord pays for all property charges regularly incurred by the ownership.\n\nShort-term rental of all sorts of products (excluding real estate and holiday apartments) is expected to grow further as the internet makes it easier to find specific items available for rent. According to a poll, 76% of people looking to rent would go to the internet first to find what they need; rise to 88% for those aged 25–34.",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1459535653751-d571815e906b.jpg",
+			"location": {
+				"address": "Miami, Florida, USA",
+				"city": "Los Angeles",
+				"country_long": "United States",
+				"country_short": "US",
+				"latitude": 25.7616798,
+				"longitude": -80.19179020000001,
+				"state": "Florida",
+				"state_short": "FL",
+				"street_number": "",
+				"postcode": ""
+			},
+			"products": [ "rental-booking" ],
+			"media": [
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1451934403379-ffeff84932da.jpg",
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1459515581694-46b4d817903b.jpg"
+			],
+			"meta": {
+				"_job_author": 1,
+				"_application": "listify@mailinator.com",
+				"_claimed": 1,
+				"_average_rating": 4.5,
+				"rating": 4.5
+			},
+			"terms": {
+				"job_listing_category": [ "private-room" ],
+				"job_listing_tag": [ "bike-parking", "kitchen", "cable-tv", "wireless-internet" ],
+				"job_listing_region": [ "miami" ]
+			},
+			"comments": {
+				"comment-jude-2": {
+					"comment_author": "Jude",
+					"comment_author_email": "listify@mailinator.com",
+					"comment_content": "Such a lovely place. The host met us at agreed time, showed us everything. The apartment is conveniently located, a short walk to subway, shops, and restaurants. Wi fi worked well. We had a great time. Terrific!",
+					"meta": {
+						"rating": 4,
+						"star-rating-0": 5,
+						"star-rating-1": 5,
+						"star-rating-2": 4.5,
+						"star-rating-3": 4.5,
+						"star-rating-4": 5,
+						"star-rating-5": 5,
+						"review_average": 4.5,
+						"review_categories": [ "Accuracy", "Communication", "Cleanliness", "Location", "Check In", "Value" ]
+					}
+				},
+				"comment-spencer": {
+					"comment_author": "Cody",
+					"comment_author_email": "listify@mailinator.com",
+					"comment_content": "What can I say about this place that hasn’t already been said in other reviews? Fantastic space with gorgeous furnishings. Dino was very helpful whenever needed. Looking forward to staying here again when I’m in town. Top quality. Outstanding.",
+					"meta": {
+						"rating": 5,
+						"star-rating-0": 5,
+						"star-rating-1": 5,
+						"star-rating-2": 4.5,
+						"star-rating-3": 4.5,
+						"star-rating-4": 5,
+						"star-rating-5": 5,
+						"review_average": 4.5,
+						"review_categories": [ "Accuracy", "Communication", "Cleanliness", "Location", "Check In", "Value" ]
+					}
+				}
+			}
+		}
+	},
+	{
+		"id": "elegant-contemporary-studio",
+		"type": "object",
+		"priority": 100,
+		"data": {
+			"post_title": "Elegant Contemporary Studio",
+			"post_type": "job_listing",
+			"post_content": "Renting, also known as hiring or letting, is an agreement where a payment is made for the temporary use of a good, service or property owned by another. A gross lease is when the tenant pays a flat rental amount and the landlord pays for all property charges regularly incurred by the ownership.\n\nShort-term rental of all sorts of products (excluding real estate and holiday apartments) is expected to grow further as the internet makes it easier to find specific items available for rent. According to a poll, 76% of people looking to rent would go to the internet first to find what they need; rise to 88% for those aged 25–34.",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1432303492674-642e9d0944b2.jpg",
+			"location": {
+				"address": "Toronto, ON, Canada",
+				"city": "Toronto",
+				"country_long": "Canada",
+				"country_short": "CA",
+				"latitude": 43.653226,
+				"longitude": -79.38318429999998,
+				"state": "Ontario",
+				"state_short": "ON",
+				"street_number": "",
+				"postcode": ""
+			},
+			"products": [ "rental-booking" ],
+			"media": [
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1463620695885-8a91d87c53d0.jpg",
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1448697138198-9aa6d0d84bf4.jpg"
+			],
+			"meta": {
+				"_job_author": 1,
+				"_application": "listify@mailinator.com",
+				"_claimed": 1,
+				"_average_rating": 4.5,
+				"rating": 4.5
+			},
+			"terms": {
+				"job_listing_category": [ "entire-home" ],
+				"job_listing_tag": [ "bike-parking", "kitchen", "cable-tv", "wireless-internet" ],
+				"job_listing_region": [ "toronto" ]
+			},
+			"comments": {
+				"comment-jude": {
+					"comment_author": "Jude",
+					"comment_author_email": "listify@mailinator.com",
+					"comment_content": "Such a lovely place. The host met us at agreed time, showed us everything. The apartment is conveniently located, a short walk to subway, shops, and restaurants. Wi fi worked well. We had a great time. Wowow!",
+					"meta": {
+						"rating": 4,
+						"star-rating-0": 5,
+						"star-rating-1": 5,
+						"star-rating-2": 4.5,
+						"star-rating-3": 4.5,
+						"star-rating-4": 5,
+						"star-rating-5": 5,
+						"review_average": 4.5,
+						"review_categories": [ "Accuracy", "Communication", "Cleanliness", "Location", "Check In", "Value" ]
+					}
+				},
+				"comment-spencer": {
+					"comment_author": "Cody",
+					"comment_author_email": "listify@mailinator.com",
+					"comment_content": "What can I say about this place that hasn’t already been said in other reviews? Fantastic space with gorgeous furnishings. Dino was very helpful whenever needed. Looking forward to staying here again when I’m in town. Top quality. A+",
+					"meta": {
+						"rating": 5,
+						"star-rating-0": 5,
+						"star-rating-1": 5,
+						"star-rating-2": 4.5,
+						"star-rating-3": 4.5,
+						"star-rating-4": 5,
+						"star-rating-5": 5,
+						"review_average": 4.5,
+						"review_categories": [ "Accuracy", "Communication", "Cleanliness", "Location", "Check In", "Value" ]
+					}
+				}
+			}
+		}
+	},
+	{
+		"id": "central-industrial-loft",
+		"type": "object",
+		"priority": 100,
+		"data": {
+			"post_title": "Central Industrial Loft",
+			"post_type": "job_listing",
+			"post_content": "Renting, also known as hiring or letting, is an agreement where a payment is made for the temporary use of a good, service or property owned by another. A gross lease is when the tenant pays a flat rental amount and the landlord pays for all property charges regularly incurred by the ownership.\n\nShort-term rental of all sorts of products (excluding real estate and holiday apartments) is expected to grow further as the internet makes it easier to find specific items available for rent. According to a poll, 76% of people looking to rent would go to the internet first to find what they need; rise to 88% for those aged 25–34.",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1416331108676-a22ccb276e35.jpg",
+			"location": {
+				"address": "San Francisco, CA, USA",
+				"city": "San Franciso",
+				"country_long": "United Sates",
+				"country_short": "US",
+				"latitude": 37.7749295,
+				"longitude": -122.41941550000001,
+				"state": "California",
+				"state_short": "CA",
+				"street_number": "",
+				"postcode": ""
+			},
+			"products": [ "rental-booking" ],
+			"media": [
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1422480415834-d7d30118ea06.jpg",
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1431102325666-4395d8bfac52.jpg"
+			],
+			"meta": {
+				"_job_author": 1,
+				"_application": "listify@mailinator.com",
+				"_claimed": 1,
+				"_average_rating": 4.5,
+				"rating": 4.5
+			},
+			"terms": {
+				"job_listing_category": [ "entire-home" ],
+				"job_listing_tag": [ "bike-parking", "kitchen", "cable-tv", "wireless-internet" ],
+				"job_listing_region": [ "san-francisco" ]
+			},
+			"comments": {
+				"comment-jude-5": {
+					"comment_author": "Jude",
+					"comment_author_email": "listify@mailinator.com",
+					"comment_content": "Such a lovely place. The host met us at agreed time, showed us everything. The apartment is conveniently located, a short walk to subway, shops, and restaurants. Wi fi worked well. We had a great time. Mind-blowing.",
+					"meta": {
+						"rating": 4,
+						"star-rating-0": 5,
+						"star-rating-1": 5,
+						"star-rating-2": 4.5,
+						"star-rating-3": 4.5,
+						"star-rating-4": 5,
+						"star-rating-5": 5,
+						"review_average": 4.5,
+						"review_categories": [ "Accuracy", "Communication", "Cleanliness", "Location", "Check In", "Value" ]
+					}
+				},
+				"comment-spencer-2": {
+					"comment_author": "Cody",
+					"comment_author_email": "listify@mailinator.com",
+					"comment_content": "What can I say about this place that hasn’t already been said in other reviews? Fantastic space with gorgeous furnishings. Dino was very helpful whenever needed. Looking forward to staying here again when I’m in town. Top quality. Inpsiring.",
+					"meta": {
+						"rating": 5,
+						"star-rating-0": 5,
+						"star-rating-1": 5,
+						"star-rating-2": 4.5,
+						"star-rating-3": 4.5,
+						"star-rating-4": 5,
+						"star-rating-5": 5,
+						"review_average": 4.5,
+						"review_categories": [ "Accuracy", "Communication", "Cleanliness", "Location", "Check In", "Value" ]
+					}
+				}
+			}
+		}
+	},
+	{
+		"id": "luxury-lounge-shared",
+		"type": "object",
+		"priority": 100,
+		"data": {
+			"post_title": "Luxury Lounge Shared",
+			"post_type": "job_listing",
+			"post_content": "Renting, also known as hiring or letting, is an agreement where a payment is made for the temporary use of a good, service or property owned by another. A gross lease is when the tenant pays a flat rental amount and the landlord pays for all property charges regularly incurred by the ownership.\n\nShort-term rental of all sorts of products (excluding real estate and holiday apartments) is expected to grow further as the internet makes it easier to find specific items available for rent. According to a poll, 76% of people looking to rent would go to the internet first to find what they need; rise to 88% for those aged 25–34.",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1446144525544-808f420174ec.jpg",
+			"location": {
+				"address": "Washington, DC, USA",
+				"city": "Washington",
+				"country_long": "United Sates",
+				"country_short": "US",
+				"latitude": 38.9071923,
+				"longitude": -77.03687070000001,
+				"state": "District of Columbia",
+				"state_short": "DC",
+				"street_number": "",
+				"postcode": ""
+			},
+			"products": [ "rental-booking" ],
+			"media": [
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1422480583773-338e49843f4c.jpg",
+				"http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/photo-1422479278902-8cef24992df0.jpg"
+			],
+			"meta": {
+				"_job_author": 1,
+				"_application": "listify@mailinator.com",
+				"_claimed": 1,
+				"_average_rating": 4.5,
+				"rating": 4.5
+			},
+			"terms": {
+				"job_listing_category": [ "shared-room" ],
+				"job_listing_tag": [ "bike-parking", "kitchen", "cable-tv", "wireless-internet" ],
+				"job_listing_region": [ "washington-d-c" ]
+			},
+			"comments": {
+				"comment-jude-3": {
+					"comment_author": "Jude",
+					"comment_author_email": "listify@mailinator.com",
+					"comment_content": "Such a lovely place. The host met us at agreed time, showed us everything. The apartment is conveniently located, a short walk to subway, shops, and restaurants. Wi fi worked well. We had a great time. Splending.",
+					"meta": {
+						"rating": 4,
+						"star-rating-0": 5,
+						"star-rating-1": 5,
+						"star-rating-2": 4.5,
+						"star-rating-3": 4.5,
+						"star-rating-4": 5,
+						"star-rating-5": 5,
+						"review_average": 4.5,
+						"review_categories": [ "Accuracy", "Communication", "Cleanliness", "Location", "Check In", "Value" ]
+					}
+				},
+				"comment-spencer-3": {
+					"comment_author": "Cody",
+					"comment_author_email": "listify@mailinator.com",
+					"comment_content": "What can I say about this place that hasn’t already been said in other reviews? Fantastic space with gorgeous furnishings. Dino was very helpful whenever needed. Looking forward to staying here again when I’m in town. Top quality. Would come back!",
+					"meta": {
+						"rating": 5,
+						"star-rating-0": 5,
+						"star-rating-1": 5,
+						"star-rating-2": 4.5,
+						"star-rating-3": 4.5,
+						"star-rating-4": 5,
+						"star-rating-5": 5,
+						"review_average": 4.5,
+						"review_categories": [ "Accuracy", "Communication", "Cleanliness", "Location", "Check In", "Value" ]
+					}
+				}
+			}
+		}
+	}
+]

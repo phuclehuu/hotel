@@ -1,0 +1,44 @@
+{
+  "name": "listify",
+  "title": "Listify",
+  "version": "2.3.1",
+  "description": "The last directory theme you will ever buy.",
+  "homepage": "https://astoundify.com/products/listify/",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bump": "^0.8.0",
+    "grunt-checktextdomain": "^1.0.1",
+    "grunt-cli": "~1.2.0",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "~2.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "~2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-cssjanus": "~0.4.0",
+    "grunt-exec": "^2.0.0",
+    "grunt-glotpress": "^0.2.1",
+    "grunt-jsonlint": "^1.1.0",
+    "grunt-potomo": "^3.1.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-shell": "~2.1.0",
+    "grunt-wp-i18n": "~1.0.0",
+    "grunt-zip": "^0.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Astoundify/listify.git"
+  },
+  "author": "Astoundify",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/Astoundify/listify/issues"
+  },
+  "scripts": {
+    "setup": "grunt build && cd vendor/astoundify/content-importer && npm run setup",
+    "dist": "grunt build_zip"
+  }
+}

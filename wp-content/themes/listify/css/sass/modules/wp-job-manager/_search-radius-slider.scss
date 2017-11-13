@@ -1,0 +1,38 @@
+.search-radius-slider {
+	width: 100%;
+
+	@include bp(lg) {
+		flex-grow: 1;
+		min-width: 70%;
+		width: auto;
+		margin-left: 15px;
+	}
+
+	.noUi-target {
+		position: relative;
+		background: #e9edf2;
+		border-radius: 20px;
+		margin-top: 9px;
+		border: 0;
+		height: 8px;
+		box-shadow: none;
+	}
+
+	.noUi-horizontal .noUi-handle {
+		position: absolute;
+		z-index: 2;
+		cursor: default;
+		width: 18px;
+		height: 18px;
+		background: #fff;
+		border-radius: 50%;
+		border-style: solid;
+		border-width: 2px;
+		box-shadow: none;
+
+		&:before,
+		&:after {
+			display: none;
+		}
+	}
+}

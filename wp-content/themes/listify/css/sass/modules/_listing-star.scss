@@ -1,0 +1,25 @@
+.listing-star {
+	font-size: 18px;
+
+	&:before {
+		@extend .ion;
+	}
+
+	.listing-stars--single & {
+		font-size: 26px;
+		color: #fff;
+		margin: 0 2px;
+	}
+}
+
+.listing-star--full:before {
+	content: $ionicon-var-android-star;
+}
+
+.listing-star--half:before {
+	content: $ionicon-var-android-star-half;
+}
+
+.listing-star--empty:before {
+	content: $ionicon-var-android-star-outline;
+}

@@ -1,0 +1,36 @@
+.job-package-includes {
+	border: 1px solid #e9edf2;
+	border-width: 1px 0;
+	padding: 1.5em 0;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		line-height: 2.5;
+	}
+
+	li:before {
+		font-size: 16px;
+		margin-top: -3px;
+		vertical-align: middle;
+	}
+}
+
+@include bp(md) {
+	.job-package-includes--stacked {
+		width: 59%;
+		display: inline-block;
+		vertical-align: middle;
+		border: 0;
+		padding: 0;
+
+		li {
+			width: 49%;
+			float: left;
+		}
+	}
+}

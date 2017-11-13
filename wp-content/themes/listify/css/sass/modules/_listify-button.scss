@@ -1,0 +1,36 @@
+.listify-button {
+	@include listify-button;
+
+    // not ideal, but helps because we can't always control cascade
+    &.listify-button--size-small {
+        @extend .listify-button--size-small;
+    }
+
+    &.listify-button--size-large {
+        @extend .listify-button--size-large;
+    }
+
+    &.listify-button--size-full {
+        @extend .listify-button--size-full;
+    }
+}
+
+// not ideal, but helps because we can't always control cascade
+.listify-button--size-small {
+	font-size: 12px;
+	padding: 7px 15px;
+}
+
+.listify-button--size-large {
+	font-size: 14px;
+
+    @include bp(md) {
+    }
+}
+
+.listify-button--size-full {
+	font-size: 14px;
+
+    @include bp(md) {
+    }
+}

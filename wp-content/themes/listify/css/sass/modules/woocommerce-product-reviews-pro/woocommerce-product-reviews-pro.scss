@@ -1,0 +1,46 @@
+.product.type-product {
+
+	.star-rating {
+		overflow: hidden;
+		position: relative;
+		height: 1em;
+		line-height: 1;
+		font-size: 1em;
+		width: 4em;
+		font-family: "Ionicons";
+	}
+
+	.star-rating:before {
+		content:"\f3ae\f3ae\f3ae\f3ae\f3ae";
+		float:left;
+		top:0;
+		left:0;
+		position:absolute;
+	}
+
+	.star-rating span {
+		overflow:hidden;
+		float:left;
+		top:0;
+		left:0;
+		position:absolute;
+		padding-top:1.5em;
+	}
+
+	.star-rating span:before {
+		content:'\f2fc\f2fc\f2fc\f2fc\f2fc';
+		top:0;
+		position:absolute;
+		left:0;
+	}
+}
+
+
+/* Archive */
+.woocommerce .content-shop-wrapper .star-rating {
+	margin: 0 auto;
+}
+
+.woocommerce .content-shop-wrapper .star-rating:before {
+	margin: 0;
+}

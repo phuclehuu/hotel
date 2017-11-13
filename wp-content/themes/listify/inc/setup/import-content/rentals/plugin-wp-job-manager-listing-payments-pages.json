@@ -1,0 +1,32 @@
+[
+	{
+		"id": "plans-pricing",
+		"type": "object",
+		"priority": 30,
+		"data": {
+			"post_type": "page",
+			"post_title": "Find the Plan That's Right for You",
+			"post_content": "",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/listify-xml-images/page-pricing-featured-image.jpg",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/template-plans-pricing.php",
+				"header_height": "large"
+			},
+			"menus": [
+				{	
+					"menu-item-title": "Add Your Properities",
+					"menu-item-position": 4,
+					"menu-item-classes": "ion-android-add",
+					"menu-item-role": "out",
+					"menu_name": "Primary"
+				},
+				{
+					"menu-item-parent-title": "Learn",
+					"menu-item-title": "Pricing Plans",
+					"menu_name": "Primary"
+				}
+			]
+		}
+	}
+]

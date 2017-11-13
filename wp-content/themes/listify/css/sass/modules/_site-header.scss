@@ -1,0 +1,39 @@
+.site-header {
+	position: relative;
+	z-index: 1021;
+}
+
+@include bp(md) {
+	.fixed-header .site-header:not(.site-header--transparent) {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+	}
+}
+
+.admin-bar.fixed-header .site-header:not(.site-header--transparent) {
+	top: 0;
+
+	@include bp(md) {
+		top: 32px;
+	}
+}
+
+.site-header--transparent {
+	@include bp(md) {
+		.primary-header {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			width: 100%;
+			z-index: 51;
+		}
+
+		.primary-header .container {
+			max-width: none;
+		}
+	}
+}

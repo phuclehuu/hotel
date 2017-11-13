@@ -1,0 +1,97 @@
+[
+	{
+		"id": "widget-image-grid",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "widget-area-home",
+			"widget": "listify_widget_taxonomy_image_grid",
+			"title": "Our Top Destinations",
+			"description": "Discover & connect with great local businesses in Toronto.",
+			"style": "square",
+			"taxonomy": "job_listing_region",
+			"limit": 9
+		}
+	},
+	{
+		"id": "widget-recent-listings",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "widget-area-home",
+			"widget": "listify_widget_recent_listings",
+			"title": "Discover Our Great Last-Minute Rental Deals",
+			"description": "Discover some of the best rental deals and book them for tonight, tomorrow and next week.",
+			"limit": 6
+		}
+	},
+	{
+		"id": "widget-recent-articles",
+		"type": "widget",
+		"priority": 50,
+		"data": {
+			"sidebar": "widget-area-home",
+			"widget": "listify_widget_recent_posts",
+			"title": "Articles & Tips",
+			"description": "Browse the latest articles and tips from our blog.",
+			"number": 3,
+			"excerpt": 1,
+			"style": "standard"
+		}
+	},
+
+	{
+		"id": "widget-listing-description",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "single-job_listing-widget-area",
+			"widget": "listify_widget_panel_listing_content",
+			"title": "",
+			"icon": ""
+		}
+	},
+	{
+		"id": "widget-listing-reviews",
+		"type": "widget",
+		"priority": 50,
+		"data": {
+			"sidebar": "single-job_listing-widget-area",
+			"widget": "listify_widget_panel_listing_comments",
+			"title": "Rate & Write a Review",
+			"icon": "ios-compose-outline"
+		}
+	},
+
+	{
+		"id": "widget-listing-author",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "single-job_listing",
+			"widget": "listify_widget_panel_listing_auhtor"
+		}
+	},
+	{
+		"id": "widget-listing-bookings",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "single-job_listing",
+			"widget": "listify_widget_panel_listing_bookings",
+			"title": "Make an Online Reservation",
+			"icon": ""
+		}
+	},
+	{
+		"id": "widget-listing-photos",
+		"type": "widget",
+		"priority": 30,
+		"data": {
+			"sidebar": "single-job_listing",
+			"widget": "listify_widget_panel_listing_gallery_slider",
+			"title": "",
+			"icon": ""
+		}
+	}
+]

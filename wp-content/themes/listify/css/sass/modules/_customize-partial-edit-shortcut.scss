@@ -1,0 +1,59 @@
+.site-branding .customize-partial-edit-shortcut-home-header-logo {
+	margin-top: 2px;
+	margin-left: 35px;
+	display: none;
+}
+
+.home .site-branding .customize-partial-edit-shortcut-home-header-logo {
+	display: block;
+}
+
+.site-branding .customize-partial-edit-shortcut-custom_logo {
+	margin-top: 2px;
+}
+
+.site-branding .customize-partial-edit-shortcut-blogname {
+	margin-top: -6px;
+}
+
+.site-social .customize-partial-edit-shortcut {
+	margin-top: -5px;
+}
+
+.site-info .customize-partial-edit-shortcut {
+	margin: -5px 0 0 -5px;
+}
+
+.primary.nav-menu .customize-partial-edit-shortcut {
+	margin: 10px 0 0 -10px;
+}
+
+.search-filters-home .customize-partial-edit-shortcut,
+.home-widget .customize-partial-edit-shortcut {
+	left: 50%;
+	margin: -40px 0 0;
+}
+
+.job_filters .customize-partial-edit-shortcut {
+	margin: 3px 0 0 -5px;
+}
+
+.widget.widget-job_listing .customize-partial-edit-shortcut {
+	margin: -25px 0 0 5px;
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-listing-card-global,
+.home-widget .customize-partial-edit-shortcut.customize-partial-edit-shortcut-listing-card-global {
+	left: 57px;
+	top: 50px;
+	z-index: 30;
+
+	button {
+		display: none;
+	}
+}
+
+.type-job_listing:hover .customize-partial-edit-shortcut.customize-partial-edit-shortcut-listing-card-global button,
+.home-widget .type-job_listing:hover .customize-partial-edit-shortcut.customize-partial-edit-shortcut-listing-card-global button {
+	display: block;
+}

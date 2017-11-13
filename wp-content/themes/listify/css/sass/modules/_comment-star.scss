@@ -1,0 +1,20 @@
+.comment-star {
+	font-size: 18px;
+	margin: 0 2px;
+
+	&:before {
+		@extend .ion;
+	}
+}
+
+.comment-star--full:before {
+	content: $ionicon-var-android-star;
+}
+
+.comment-star--half:before {
+	content: $ionicon-var-android-star-half;
+}
+
+.comment-star--empty:before {
+	content: $ionicon-var-android-star-outline;
+}

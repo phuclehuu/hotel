@@ -1,0 +1,14 @@
+.pm-form--compose-message{
+	.mce-tinymce.mce-container,
+	.wp-editor-container {
+		border: 1px solid #e5e5e5;
+	}
+
+	.wp-editor-container textarea.wp-editor-area {
+		background-color: #ffffff;
+	}
+
+	input[type=submit] {
+		@extend .listify-button--size-large;
+	}
+}

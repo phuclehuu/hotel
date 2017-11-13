@@ -1,0 +1,18 @@
+.job-package-tag {
+	top: -20px;
+	line-height: normal;
+}
+
+.job-package-tag__text {
+	line-height: 1.5;
+	color: #FFF;
+	font-size: 11px;
+	top: 50%;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	cursor: text;
+	-webkit-transform: translateY(-54%);
+	-moz-transform: translateY(-54%);
+	transform: translateY(-54%);
+}

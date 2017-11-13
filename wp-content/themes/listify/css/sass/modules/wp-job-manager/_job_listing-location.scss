@@ -1,0 +1,10 @@
+.type-job_listing .job_listing-entry-header .job_listing-location {
+	line-height: 1.5;
+	max-width: 100%;
+	display: block;
+	@extend .ellipseit;
+
+	a { 
+		vertical-align: middle;
+	}
+}

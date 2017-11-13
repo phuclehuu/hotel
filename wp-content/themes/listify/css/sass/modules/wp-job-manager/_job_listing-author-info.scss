@@ -1,0 +1,14 @@
+.job_listing-author-info {
+	line-height: 1;
+	margin: 1em 0;
+}
+
+.job_listing-author-info .widget-title {
+	border-bottom: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+
+	@include bp(lg) {
+		font-size: 20px;
+	}
+}

@@ -1,0 +1,21 @@
+.astoundify-favorites-link {
+	font-size: 16px;
+	display: inline-flex;
+	align-items: center;
+
+	.content-box & {
+		color: #fff;
+		background: rgba(0, 0, 0, 0.5);
+		border-radius: 50px;
+		padding: 3px 12px 1px;
+		position: absolute;
+		top: 15px;
+		right: 20px;
+		z-index: 22;
+	}
+
+	.content-single-job_listing-hero-company & {
+		height: 31px;
+	}
+
+}

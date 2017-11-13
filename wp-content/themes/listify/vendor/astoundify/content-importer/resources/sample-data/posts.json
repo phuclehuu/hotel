@@ -1,0 +1,37 @@
+[
+	{
+		"id": "sample-post",
+		"type": "object",
+		"data": {
+			"post_title": "Sample Post 0"
+		}
+	},
+	{
+		"id": "sample-post-1",
+		"type": "object",
+		"data": {
+			"post_title": "Sample Post 1"
+		}
+	},
+	{
+		"id": "sample-post-2",
+		"type": "object",
+		"data": {
+			"post_title": "Sample Post 2"
+		}
+	},
+	{
+		"id": "sample-post-3",
+		"type": "object",
+		"data": {
+			"post_title": "Sample Post 3"
+		}
+	},
+	{
+		"id": "sample-post-4",
+		"type": "object",
+		"data": {
+			"post_title": "Sample Post 4"
+		}
+	}
+]

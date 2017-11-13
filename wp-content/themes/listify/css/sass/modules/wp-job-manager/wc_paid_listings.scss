@@ -1,0 +1,62 @@
+/** WC Paid Listings */
+
+/* Package Selection */
+
+.job_listing_packages,
+.job_listing_packages_title,
+.entry-content .job_listing_packages_title {
+	padding: 0;
+	border: 0;
+	background: none;
+}
+
+.job_listing_packages_title h2,
+.entry-content .job_listing_packages_title h2 {
+	display: none;
+}
+
+.job_listing_packages {
+	ul.job_packages {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		li.job-package,
+		li.user-job-package {
+			text-align: left;
+			background: none;
+			border-radius: 4px;
+			border: 2px solid #eee;
+			padding: 2em;
+			margin-bottom: 1em;
+			box-shadow: none;
+
+			label {
+				font-size: 16px;
+				font-weight: normal;
+			}
+		}
+	
+		.package-section {
+			@extend .widget-title;
+			font-weight: normal;
+			margin: 1em 0; 
+			border-bottom: 0;
+			padding: 0;
+			line-height: 42px;
+
+			&:before {
+				@include ionicon;
+				content: "\f3f8";
+			}
+
+			&:first-of-type:before {
+				content: "\f453";
+			}
+		}
+	}
+	
+	.user-job-package {
+		margin-bottom: 0.5em;
+	}
+}

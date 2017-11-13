@@ -1,0 +1,32 @@
+.job_listings-map {
+	min-height: 300px;
+	height: 100%;
+}
+
+#search-this-location {
+	z-index: 999;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	display: block;
+	background: #fff;
+	padding: 8px 10px;
+	font-size: 12px;
+	color: #444;
+	border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+}
+
+#search-this-location:hover {
+	background: #eee;
+}
+
+.job_listings-map[data-service="mapbox"] #search-this-location {
+	font-size: 14px;
+	border-radius: 4px;
+	border: 2px solid rgba(0,0,0,0.2);
+}
+
+.job_listings-map[data-service="mapbox"] #search-this-location:hover {
+	background: #efefef;
+}

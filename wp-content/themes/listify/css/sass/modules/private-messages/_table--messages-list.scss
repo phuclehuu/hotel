@@ -1,0 +1,46 @@
+.pm-table--messages-list {
+	tr:hover td {
+		background-color: rgba(0, 0, 0, .03);
+	}
+
+	td.pm-column--userinfo {
+		width: 100%;
+		display: block;
+	}
+
+	td.pm-column--overview {
+		width: 100%;
+		display: inline-block;
+	}
+
+	td.pm-column--actions {
+		width: 100%;
+		display: inline-block;
+		text-align: right;
+	}
+
+	@include bp(sm) {
+		td.pm-column--userinfo,
+		td.pm-column--overview,
+		td.pm-column--actions {
+			width: auto;
+			vertical-align: middle;
+			display: table-cell;
+		}
+
+		td.pm-column--userinfo {
+			width: 30%;
+			border-right: 0;
+		}
+
+		td.pm-column--overview {
+			width: 50%;
+			border-right: 0;
+		}
+
+		td.pm-column--actions {
+			width: 20%;
+			text-align: center;
+		}
+	}
+}

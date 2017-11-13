@@ -1,0 +1,235 @@
+.stars-rating, // output anywhere
+.star-rating,
+.choose-rating,
+.comment-form-rating .stars { // listify, woocommerce stars
+	[class*="star"]:not(.star-rating-title):before {
+		@include ionicon;
+		content: $ionicon-var-android-star-outline;
+		width: auto;
+		height: auto;
+	}
+
+	[class*="star"].hover:before,
+	[class*="star"].active:before,
+	.dashicons-star-filled:before {
+		content: $ionicon-var-android-star !important;
+	}
+
+	.dashicons-star-half:before {
+		content: $ionicon-var-android-star-half !important;
+	}
+
+	// wpjmr
+	.dashicons {
+		width: auto;
+		height: auto;
+		line-height: 12px;
+	}
+}
+
+// wpjmr
+.content-single-job_listing-hero {
+	.stars-rating {
+		display: inline-block;
+		vertical-align: middle;
+
+		.dashicons,
+		.dashicons:before {
+			font-size: 23px;
+		}
+	}
+
+	&.has-image .stars-rating {
+		.dashicons:before {
+			color: #fff;
+		}
+
+		.dashicons-star-filled:before {
+			content: $ionicon-var-android-star !important;
+		}
+	}
+}
+
+.review-form-stars, // wpjmr
+.comment-form-rating {
+	margin-bottom: 24px;
+
+	label {
+		font-size: 15px;
+		display: inline-block;
+		vertical-align: middle;
+		min-width: 150px;
+	}
+
+	.stars {
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
+		margin-left: 1em;
+
+		[class*="star"] {
+			margin-right: 2px;
+			margin-top: 2px;
+			display: inline-block;
+
+			&:before {
+				font-size: 23px;
+			}
+
+			&:hover::before,
+			&:hover ~ .star::before,
+			&.active::before,
+			&.active ~ .star::before {
+				content: $ionicon-var-android-star;
+			}
+		}
+	}
+}
+
+.single-job_listing .stars [class^="star"],
+#wpjmr-submit-ratings.review-form-stars .choose-rating [class^=star] {
+	float: right;
+}
+
+.commentlist #wpjmr-submit-ratings,
+.commentlist #wpjmr-submit-gallery {
+	display: none;
+}
+
+.comment-rating {
+	margin-bottom: 1em;
+}
+
+.wp-job-manager-reviews .comment-rating {
+	display: none;
+}
+
+.wpjmr-list-reviews, 
+#wpjmr-list-reviews {
+	float: none;
+	display: inline-block;
+	margin-bottom: 1em;
+
+	.dashicons,
+	.star-rating-title {
+		line-height: normal;
+	}
+
+	.star-rating {
+		margin-top: -4px;
+		margin-right: 1em;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.dashicons {
+		line-height: 12px; // i dont even know
+		width: auto;
+		height: auto;
+		margin: 0;
+	}
+
+	.dashicons-star-filled:before {
+		content: $ionicon-var-android-star;
+	}
+}
+
+/* Review Dashboard */
+.job-manager-reviews {
+	border: none;
+
+	thead {
+		display: none;
+	}
+
+	tbody {
+
+		tr {
+			display: block;
+			border-top: 1px solid rgba(0,0,0,.1);
+			border-left: 1px solid rgba(0,0,0,.1);
+			margin-bottom: 20px;
+		}
+
+		td {
+			display: block;
+			width: 100%;
+		}
+	}
+}
+
+/* Desktop view */
+@include bp(md) {
+
+	.job-manager-reviews {
+		border-top: 1px solid rgba(0,0,0,.1);
+		border-left: 1px solid rgba(0,0,0,.1);
+
+		thead {
+			display: table-header-group;
+		}
+
+		tbody {
+
+			tr {
+				display: table-row;
+				border: none;
+				margin-bottom: 0;
+			}
+
+			td {
+				display: table-cell;
+				width: auto;
+			}
+		}
+	}
+
+}
+
+
+
+.entry-content .job-manager-reviews td {
+	vertical-align: top;
+}
+
+#job-manager-review-moderate-board .star-rating {
+	max-height: none;
+	clear: both;
+	float: left;
+	margin: 0;
+}
+
+#job-manager-review-moderate-board .wpjmr-list-reviews .star-rating-title,
+#job-manager-review-moderate-board #wpjmr-list-reviews .star-rating-title {
+	margin-bottom: 0;
+}
+
+#job-manager-review-moderate-board .wpjmr-list-reviews .star-rating,
+#job-manager-review-moderate-board #wpjmr-list-reviews .star-rating {
+	margin-bottom: 10px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+/* Actions */
+
+.review-action svg {
+	width: 10px;
+	height: 10px;
+	fill: #717A8F;
+}
+
+/* Gallery Pop Up */
+
+body .listify-wpjm-reviews-gallery-popup {
+
+	.mfp-close {
+		margin-top: 35px;
+
+		&:before {
+			color: #fff;
+		}
+	}
+}

@@ -1,0 +1,167 @@
+[
+	{
+		"type": "thememod",
+		"id": "style-kit",
+		"data": "radical-red"
+	},
+	{
+		"type": "thememod",
+		"id": "color-scheme",
+		"data": "radical-red"
+	},
+	{
+		"type": "thememod",
+		"id": "typography-font-pack",
+		"data": "playfair"
+	},
+	{
+		"type": "thememod",
+		"id": "header_textcolor",
+		"data": "454545"
+	},
+	{
+		"type": "thememod",
+		"id": "content-box-style",
+		"data": "minimal"
+	},
+	{
+		"type": "thememod",
+		"id": "home-header-style",
+		"data": "transparent"
+	},
+	{
+		"type": "thememod",
+		"id": "home-hero-overlay-style",
+		"data": "solid"
+	},
+	{
+		"type": "thememod",
+		"id": "content-blog-style",
+		"data": "grid"
+	},
+	{
+		"type": "thememod",
+		"id": "content-sidebar-position",
+		"data": "none"
+	},
+	{
+		"type": "thememod",
+		"id": "content-register-title",
+		"data": "Sign up for Rentals"
+	},
+	{
+		"type": "thememod",
+		"id": "social-association",
+		"data": "listing"
+	},
+	{
+		"type": "thememod",
+		"id": "listing-archive-map-position",
+		"data": "right"
+	},
+	{
+		"type": "thememod",
+		"id": "listing-archive-mobile-view-default",
+		"data": "results"
+	},
+	{
+		"type": "thememod",
+		"id": "search-filters-home",
+		"data": [ "location" ]
+	},
+	{
+		"type": "thememod",
+		"id": "search-filters-archive",
+		"data": [ "keyword", "location", "category" ]
+	},
+	{
+		"type": "thememod",
+		"id": "listing-filters-style",
+		"data": "boxless"
+	},
+	{
+		"type": "thememod",
+		"id": "search-filters-submit",
+		"data": 0
+	},
+	{
+		"type": "thememod",
+		"id": "search-filters-meta",
+		"data": 0
+	},
+	{
+		"type": "thememod",
+		"id": "search-filters-rss",
+		"data": 0
+	},
+	{
+		"type": "thememod",
+		"id": "search-filters-reset",
+		"data": 0
+	},
+	{
+		"type": "thememod",
+		"id": "listing-card-display-phone",
+		"data": 0
+	},
+	{
+		"type": "thememod",
+		"id": "listing-card-display-secondary-image",
+		"data": 1
+	},
+	{
+		"type": "thememod",
+		"id": "listing-archive-card-avatar",
+		"data": "avatar"
+	},
+	{
+		"type": "thememod",
+		"id": "listing-archive-card-avatar-style",
+		"data": "circle"
+	},
+	{
+		"type": "thememod",
+		"id": "listing-archive-feature-style",
+		"data": "badge"
+	},
+	{
+		"type": "thememod",
+		"id": "listing-single-hero-size",
+		"data": "large"
+	},
+	{
+		"type": "thememod",
+		"id": "listing-single-hero-style",
+		"data": "gallery"
+	},
+	{
+		"type": "thememod",
+		"id": "single-listing-secondary-image-display",
+		"data": 1
+	},
+	{
+		"type": "thememod",
+		"id": "single-listing-secondary-image",
+		"data": "avatar"
+	},
+	{
+		"type": "thememod",
+		"id": "single-listing-secondary-image-style",
+		"data": "circle"
+	},
+	{
+		"type": "thememod",
+		"id": "map-appearance-scheme",
+		"data": "ultra-light"
+	},
+	{
+		"type": "thememod",
+		"id": "nav-cart",
+		"data": "none"
+	},
+	{
+		"type": "thememod",
+		"id": "nav-secondary",
+		"data": 0
+	}
+]

@@ -1,0 +1,18 @@
+.woocommerce-form-login input[type="submit"],
+.woocommerce-form-login label.inline {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.woocommerce-form-login .inline {
+	margin-top: 1em;
+	display: block;
+}
+
+	@include bp(sm) {
+		.woocommerce-form-login label.inline {
+			margin-top: 0;
+			margin-left: 20px;
+			display: inline-block !important;
+		}
+	}

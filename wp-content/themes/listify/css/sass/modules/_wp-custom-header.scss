@@ -1,0 +1,51 @@
+.custom-header-video {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	max-height: 100%;
+	overflow: hidden;
+}
+
+.wp-custom-header-video-button {
+	display: none;
+}
+
+.custom-header-media img,
+.custom-header-media video,
+.custom-header-media iframe {
+	position: absolute;
+	height: auto;
+	left: 50%;
+	max-width: 1000%;
+	min-height: 100%;
+	min-width: 100%;
+	min-width: 100vw; /* vw prevents 1px gap on left that 100% has */
+	width: auto;
+	top: 50%;
+	padding-bottom: 1px; /* Prevent header from extending beyond the footer */
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	margin-bottom: 0;
+}
+
+/* For browsers that support 'object-fit' */
+@supports ( object-fit: cover ) {
+	.custom-header-media img,
+	.custom-header-media video,
+	.custom-header-media iframe {
+		height: 100%;
+		left: 0;
+		-o-object-fit: cover;
+		object-fit: cover;
+		top: 0;
+		-ms-transform: none;
+		-moz-transform: none;
+		-webkit-transform: none;
+		transform: none;
+		width: 100%;
+	}
+}

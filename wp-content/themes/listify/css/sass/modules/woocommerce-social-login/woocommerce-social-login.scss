@@ -1,0 +1,62 @@
+@import "si";
+
+.wc-social-login {
+	margin: 2.5em 0;
+}
+
+.wc-social-login a.button-social-login {
+	text-align: center;
+	text-shadow: none;
+	line-height: normal;
+	font-weight: normal;
+	border: 0;
+	margin: 0 0 1em;
+	padding: 6px 0;
+	box-shadow: none;
+	display: block;
+	border-radius: 3px;
+
+	.si {
+		color: #fff;
+		border: 0;
+		padding: 0;
+		vertical-align: middle;
+		background-size: 1.75em;
+		background-color: transparent;
+		border-radius: 0;
+	}
+
+	&:hover {
+		color: #ffffff;
+	}
+}
+
+.wc-social-login-divider {
+	text-align: center;
+	overflow: hidden;
+
+	span {
+		display: inline-block;
+		position: relative;
+
+		&:before,
+		&:after {
+			content: ' ';
+			position: absolute;
+			width: 600px;
+			height: 1px;
+			background: #eeeeee;
+			top: 13px;
+		}
+
+		&:before {
+			right: 100%;
+			margin-right: 15px;
+		}
+
+		&:after {
+			left: 100%;
+			margin-left: 15px;
+		}
+	}
+}

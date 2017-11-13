@@ -1,0 +1,46 @@
+.pm-form--filters {
+	@include clearfix;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	margin: 0 0 1em;
+
+	@include bp(md) {
+		.pm-form__row,
+		.pm-mark-all-as-read,
+		.pm-action-row {
+			order: initial;
+		}
+	}
+
+	[type="submit"] {
+		padding: 12px 20px;
+	}
+
+	.pm-form__row {
+		width: 100%;
+		margin-bottom: 24px;
+		order: 2;
+
+		@include bp(md) {
+			width: auto;
+			margin: auto 24px 0 0;
+			order: initial;
+		}
+
+		.select,
+		select {
+			width: 100%;
+			display: block;
+		}
+	}
+
+	.pm-action-row {
+		order: 1;
+	}
+
+	.pm-mark-all-as-read {
+		order: 3;
+	}
+
+}

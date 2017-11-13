@@ -1,0 +1,12 @@
+.popup-loading {
+	@extend .ion;
+	color: #ffffff;
+	font-size: 30px;
+	-webkit-animation: rotate 700ms infinite linear;
+	-moz-animation: rotate 700ms infinite linear;
+	animation: rotate 700ms infinite linear;
+
+	&:before {
+		content: $ionicon-var-load-c;
+	}
+}

@@ -1,0 +1,13 @@
+.listing-card {
+	opacity: 0;
+	transition: opacity 0.35s ease-in-out 0.15s;
+
+	.listing-cards-anchor--active & {
+		opacity: 1;
+	}
+
+	// Force full width in a sidebar.
+	.widget-area--listing-sidebar & {
+		width: 100% !important;
+	}
+}

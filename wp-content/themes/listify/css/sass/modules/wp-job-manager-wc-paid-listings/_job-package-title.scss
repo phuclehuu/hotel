@@ -1,0 +1,17 @@
+.job-package-title {
+	font-size: 20px;
+	line-height: 1;
+	border-bottom: 1px solid #e9edf2;
+	padding-bottom: 1em;
+
+	@include bp(sm) {
+		font-size: 26px;
+	}
+}
+
+@include bp(md) {
+	.job-package-title--stacked {
+		padding-bottom: 0.5em;
+		border: 0;
+	}
+}

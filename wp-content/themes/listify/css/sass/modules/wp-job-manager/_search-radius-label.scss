@@ -1,0 +1,7 @@
+.search-radius-label {
+	width: 100%;
+	
+	@include bp(lg) {
+		width: auto;
+	}
+}

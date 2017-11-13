@@ -1,0 +1,14 @@
+[
+	{
+		"id": "nav-menu-item-explore",
+		"type": "nav-menu-item",
+		"priority": 0,
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-title": "Explore",
+			"menu-item-type": "post_type_archive",
+			"menu-item-object": "job_listing",
+			"menu-item-position": 1
+		}
+	}
+]

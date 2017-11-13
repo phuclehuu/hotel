@@ -1,0 +1,26 @@
+[
+	{
+		"id": "category-entire-home",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_category",
+			"name": "Entire Home"
+		}
+	},
+	{
+		"id": "category-private-room",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_category",
+			"name": "Private Room"
+		}
+	},
+	{
+		"id": "category-shared-room",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_category",
+			"name": "Shared Room"
+		}
+	}
+]

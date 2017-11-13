@@ -1,0 +1,8 @@
+/**
+ * When on an archive with a fix map let everything be full width.
+ */
+.job-manager-archive.fixed-map .container {
+	max-width: none;
+	padding-left: 30px;
+	padding-right: 30px;
+}

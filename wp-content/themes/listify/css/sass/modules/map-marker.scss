@@ -1,0 +1,104 @@
+.map-marker {
+    cursor: pointer;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: -18px;
+}
+
+.map-marker:after,
+.map-marker__shadow,
+.map-marker i:after {
+	position: absolute;
+	content: ' ';
+	display: block;
+}
+
+.map-marker:after {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 30px 15px 0 15px;
+	border-color: #2F3339 transparent transparent transparent;
+	top: 19px;
+}
+
+.map-marker i {
+	position: relative;
+	z-index: 10;
+}
+
+.map-marker i:after {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #2F3339;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.map-marker i:before {
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	z-index: 5;
+}
+
+.map-marker i {
+	color: #2F3339;
+	font-size: 16px;
+	position: relative;
+	z-index: 10;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	display: block;
+}
+
+.map-marker__shadow {
+	background: rgba(0, 0, 0, 0.15);
+	box-shadow: rgba(0, 0, 0, 0.05) 0 0 1px 1px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	bottom: -24px;
+	left: 10px;
+	transform: rotateX(55deg);
+
+	&:after {
+		content: "";
+		border-radius: 50%;
+		height: 40px;
+		width: 40px;
+		position: absolute;
+		margin: -13px 0 0 -14px;
+		opacity: 0;
+		box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.25);
+	}
+}
+
+.map-marker--active .map-marker__shadow:after {
+	animation: pulsate 1.25s ease-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+	0% {
+		transform: scale(0.1, 0.1);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1.2, 1.2);
+		opacity: 0;
+	}
+}

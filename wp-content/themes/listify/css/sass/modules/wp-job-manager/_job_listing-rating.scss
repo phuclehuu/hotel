@@ -1,0 +1,38 @@
+.job_listing-rating-wrapper,
+.job_listing-rating-wrapper > span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.job_listing-rating-stars {
+	line-height: normal;
+}
+
+.job_listing-rating-stars .star-icon {
+	margin-right: 5px;
+	position: relative;
+}
+
+.content-single-job_listing-hero {
+	.job_listing-rating-wrapper {
+		margin-right: 1em;
+	}
+
+	.job_listing-rating-stars .star-icon {
+		font-size: 29px;
+	}
+
+	&.has-image .job_listing-rating-stars {
+		.star-icon .ion-android-star:before,
+		.star-icon .ion-android-star-half:before,
+		.star-icon .ion-ios-star:before,
+		.star-icon .ion-ios-star-half:before {
+			color: #fff;
+		}
+	}
+}
+
+.content-single-job_listing-hero-company .job_listing-rating-average,
+.content-single-job_listing-hero-company .job_listing-rating-count {
+	display: none;
+}

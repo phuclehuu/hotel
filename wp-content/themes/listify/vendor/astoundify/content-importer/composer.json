@@ -1,0 +1,14 @@
+{
+	"name": "astoundify/content-importer",
+	"description": "Something awesome.",
+	"license": "GPL 3.0",
+	"authors": [
+		{
+			"name": "Astoundify",
+			"email": "contact@astoundify.com"
+		}
+	],
+	"autoload": {
+		"classmap": ["app/"]
+	}
+}

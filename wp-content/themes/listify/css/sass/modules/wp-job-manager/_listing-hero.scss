@@ -1,0 +1,23 @@
+.listing-hero {
+
+}
+
+.listing-hero--company-logo {
+
+}
+
+@include bp(sm) {
+	.listing-cover.listing-hero--company-logo {
+		padding-top: 3em;
+	}
+}
+
+@include bp(md) {
+	.listing-cover.listing-hero--company-logo {
+		padding-top: 5em;
+	}
+
+	.listing-cover.listing-hero--company-logo.listing-cover--size-large {
+		padding-top: 15em;
+	}
+}

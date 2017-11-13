@@ -1,0 +1,23 @@
+.private-message-menu-item {
+
+	.mail-icon {
+		@extend .ion;
+		font-size: 33px;
+		position: relative;
+		vertical-align: middle;
+	}
+
+	.mail-icon:before {
+		content: $ionicon-var-ios-email;
+	}
+
+	.mail-icon--unread:after {
+		content: '';
+		width: 9px;
+		height: 9px;
+		border-radius: 50%;
+		position: absolute;
+		top: 3px;
+		right: -5px;
+	}
+}

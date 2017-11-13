@@ -1,0 +1,11 @@
+#wpua-undo-button-existing {
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	margin-right: 10px;
+
+	button {
+		@extend .listify-button;
+		@extend .listify-button--size-small;
+	}
+}

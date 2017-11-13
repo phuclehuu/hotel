@@ -1,0 +1,21 @@
+button.more-filters__toggle {
+	box-shadow: none;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	padding: 13px 13px 12px 45px;
+
+	&:before {
+		@extend .ion;
+		content: $ionicon-var-ios-settings;
+		font-size: 22px;
+		position: absolute;
+		left: 15px;
+		top: 12px;
+	}
+}
+
+.more-filters__filters {
+	display: none;
+	margin-top: 36px;
+}
