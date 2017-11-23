@@ -50,87 +50,6 @@ abstract class Listify_Listing {
 	}
 
 	/**
-	 * Listing price
-	 *
-	 * @since 2.0.0
-	 *
-	 * @return string
-	 */
-	public function get_price() {
-		return get_post_meta( $this->get_object()->ID,'price' , true);
-	}
-
-	/**
-	 * Listing amenity
-	 *
-	 * @since 2.0.0
-	 *
-	 * @return string
-	 */
-	public function get_amenity_icon() {
-		//Victor
-		$amenity_str = '';
-		$amenity = get_the_terms($this->get_object()->ID,'job_listing_category'); //array object
-		
-		foreach ($amenity as $k=>$item) {
-			if($k>2) break;
-			$icons = get_option("templtax_".$item->term_id);
-			$img = '';
-			if(is_array($icons)){
-				foreach($icons as $size => $attach_id) {
-					if($attach_id > 0) { 
-						$img = wp_get_attachment_image($attach_id,'templ_icon_small');
-					}
-				}
-			}
-
-			if($img!='' && $item->term_type == 'templ_upload_img'){
-				$amenity_str .= '<a href="javascript:void(0)"'. ' title="'.$item->name.'">'.$img .'</a>' .' ';
-			} else {
-				if($item->term_font_icon != '0'){
-					$amenity_str .= '<a href="javascript:void(0)"'. ' title="'.$item->name.'">' .$item->term_font_icon.'</a>' .' ';
-				}
-			}
-			//$amenity_str .= $item->name;
-			//$amenity_str.='</span>';
-		}
-		return $amenity_str;
-	}
-
-	/**
-	 * Listing person
-	 *
-	 * @since 2.0.0
-	 *
-	 * @return string
-	 */
-	public function get_person() {
-		return get_post_meta( $this->get_object()->ID,'person' , true);
-	}
-
-	/**
-	 * Listing bedroom
-	 *
-	 * @since 2.0.0
-	 *
-	 * @return string
-	 */
-	public function get_bedroom() {
-		return get_post_meta( $this->get_object()->ID,'bedroom' , true);
-	}
-
-	/**
-	 * Listing bathroom
-	 *
-	 * @since 2.0.0
-	 *
-	 * @return string
-	 */
-	public function get_bathroom() {
-		return get_post_meta( $this->get_object()->ID,'bathroom' , true);
-	}
-
-	/**
 	 * Associated listing object
 	 *
 	 * @since 2.0.0
@@ -845,11 +764,6 @@ abstract class Listify_Listing {
 		return apply_filters( 'listify_get_listing_to_array', array(
 			'id' => $this->get_id(),
 			'object' => $this->get_object(),
-			'price' => $this->get_price(),
-			'amenity' => $this->get_amenity_icon(),
-			'person' => $this->get_person(),
-			'bathroom' => $this->get_bathroom(),
-			'bedroom' => $this->get_bedroom(),
 			'status' => array(
 				'published' => 'publish' === $this->get_status(),
 				'featured' => $this->is_featured(),

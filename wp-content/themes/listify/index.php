@@ -30,17 +30,14 @@ get_header(); ?>
 	<div id="primary" class="container">
 		<div class="row content-area">
 
-			<!-- edit by VICTOR HOANG -->
 			<?php if ( 'left' == esc_attr( listify_theme_mod( 'content-sidebar-position', 'right' ) ) ) : ?>
-				<?php// get_sidebar(); ?>
+				<?php get_sidebar(); ?>
 			<?php endif; ?>
-			<!--
+
 			<main id="main" class="site-main col-xs-12 <?php if ( $sidebar ) : ?>col-sm-7 col-md-8<?php endif; ?>" role="main">
-			-->
-			<main id="main" class="site-main col-xs-12 <?php if ( $sidebar ) : ?>col-sm-12 col-md-12<?php endif; ?>" role="main">
+
 				<?php if ( 'default' != $blog_style ) : ?>
-				<!-- <div class="blog-archive blog-archive--grid <?php if ( $sidebar ): ?>blog-archive--has-sidebar<?php endif; ?>" data-columns> -->
-				<div class="blog-archive blog-archive--grid" data-columns>
+				<div class="blog-archive blog-archive--grid <?php if ( $sidebar ): ?>blog-archive--has-sidebar<?php endif; ?>" data-columns>
 					<?php add_filter( 'excerpt_length', 'listify_short_excerpt_length' ); ?>
 				<?php endif; ?>
 
@@ -66,7 +63,7 @@ get_header(); ?>
 			</main>
 
 			<?php if ( 'right' == esc_attr( get_theme_mod( 'content-sidebar-position', 'right' ) ) ) : ?>
-				<?php // get_sidebar(); ?>
+				<?php get_sidebar(); ?>
 			<?php endif; ?>
 
 		</div>

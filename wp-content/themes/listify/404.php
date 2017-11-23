@@ -6,14 +6,9 @@
  */
 
 get_header(); ?>
-	
+
 	<div <?php echo apply_filters( 'listify_cover', 'page-cover' ); ?>>
 		<div class="cover-wrapper">
-			<p class="p-404">404</p>
-			<p class="p-infor">Not Found.</p>
-			<p class="p-link-top">
-				<a href="<?php echo site_url(); ?>">EXUTRA TOP</a>
-			</p>
 			<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'listify' ); ?></h1>
 		</div>
 	</div>

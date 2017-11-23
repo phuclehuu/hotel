@@ -163,8 +163,6 @@ class Listify_WP_Job_Manager_Template extends Listify_Integration {
 			'job_listing-video.php',
 			'job_listing-related-listings.php',
 			'job_listing-social-profiles.php',
-			//Victor
-			'job_listing-amenity.php',
 
 			'home-recent-listings.php',
 			'home-search-listings.php',
@@ -179,9 +177,6 @@ class Listify_WP_Job_Manager_Template extends Listify_Integration {
 		}
 
 		register_widget( 'Listify_Widget_Listing_Content' );
-		//Victor
-		register_widget( 'Listify_Widget_Listing_Amenity' );
-		//end
 		register_widget( 'Listify_Widget_Listing_Comments' );
 		register_widget( 'Listify_Widget_Listing_Gallery' );
 		register_widget( 'Listify_Widget_Listing_Gallery_Slider' );

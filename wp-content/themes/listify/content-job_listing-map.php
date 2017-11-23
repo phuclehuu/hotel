@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 
 <?php do_action( 'listify_map_before' ); ?>
-<!-- 	COMMENT BY VICTOR HOANG
+
 <div class="job_listings-map-wrapper listings-map-wrapper--<?php echo esc_attr( get_theme_mod( 'listing-archive-map-position', 'side' ) ); ?>">
 	<?php do_action( 'listify_map_above' ); ?>
 
@@ -28,5 +28,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<?php do_action( 'listify_map_below' ); ?>
 </div>
--->
+
 <?php do_action( 'listify_map_after' ); ?>

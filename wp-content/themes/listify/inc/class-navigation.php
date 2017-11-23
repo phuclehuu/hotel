@@ -82,13 +82,8 @@ class Listify_Navigation {
 
 			$display_name = apply_filters( 'listify_acount_menu_user_label', $display_name, $user );
 
-			/*$avatar =
-				'<div class="current-account-avatar" data-href="' . esc_url( apply_filters( 'listify_avatar_menu_link', get_author_posts_url( $user->ID, $user->user_nicename ) ) ) .
-				'">' .
-				get_avatar( $user->ID, 90 )
-				. '</div>';*/
 			$avatar =
-				'<div class="current-account-avatar" data-href="' . '#' .
+				'<div class="current-account-avatar" data-href="' . esc_url( apply_filters( 'listify_avatar_menu_link', get_author_posts_url( $user->ID, $user->user_nicename ) ) ) .
 				'">' .
 				get_avatar( $user->ID, 90 )
 				. '</div>';

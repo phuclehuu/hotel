@@ -99,7 +99,7 @@ class Listify_Widget_Recent_Posts extends Listify_Widget {
 
 		echo '</div>';
 
-		echo '<p class="from-the-blog"><a href="' . get_permalink( get_option( 'page_for_posts' ) ) . '" class="button">' . __( 'View Magazine', 'listify' ) . '</a></p>';
+		echo '<p class="from-the-blog"><a href="' . get_permalink( get_option( 'page_for_posts' ) ) . '" class="button">' . __( 'View Blog', 'listify' ) . '</a></p>';
 
 		echo $after_widget;
 

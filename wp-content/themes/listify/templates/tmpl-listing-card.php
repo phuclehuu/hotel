@@ -124,28 +124,9 @@ do_action( 'listify_listing_card_before' );
 				 */
 				do_action( 'listify_content_job_listing_footer' );
 			?>
-			<# if ( data.cardDisplay.rating ) { #>
-				<# if ( data.person) { #>
-					<!-- <div class="guest f-left">
-                    	<i class="fa fa-users" aria-hidden="true"></i>
-                    	<span>{{data.person}}</span>
-               		</div> -->
-				<# } #>
 
-				<# if ( data.bedroom) { #>
-					<!-- <div class="bedroom f-left">
-                     	<i class="fa fa-bed" aria-hidden="true"></i> 
-                     	<span>{{data.bedroom}}</span>
-                	</div> -->
-				<# } #>
-				
-				<# if ( data.bathroom) { #>
-					<!-- <div class="bathroom f-left">
-                     	<i class="fa fa-bath" aria-hidden="true"></i>
-                     	<span>{{data.bathroom}}</span>
-                	</div> -->
-				<# } #>
-				<div class="listing-stars f-left">
+			<# if ( data.cardDisplay.rating ) { #>
+				<div class="listing-stars">
 					<# if ( data.reviews ) { #>
 						<# for ( var i = 1; i <= data.reviews.stars.full; i++ ) { #>
 							<span class="listing-star listing-star--full"></span>
@@ -157,19 +138,8 @@ do_action( 'listify_listing_card_before' );
 					<# } #>
 				</div>
 			<# } #>
-			<div class="guest f-left">
-                <span>{{{(data.amenity)}}}</span>
-            </div>
-			<# if(data.price) { #>
-				<div class="price f-right">
-					<span class="from">FROM&nbsp;</span>
-				<!-- <span class="unit">$</span> --><span class="value">{{data.price}}</span> 
-					<span class="nt">&nbsp;/NT</span>
-				</div>
-            <# } #>
-<!-- COMMENT VICTOR HOANG
-			<# if ( data.cardDisplay.secondaryImage && data.secondaryImage.url ) { #>
 
+			<# if ( data.cardDisplay.secondaryImage && data.secondaryImage.url ) { #>
 				<div class="listing-entry-company-image listing-entry-company-image--card listing-entry-company-image--type-{{data.secondaryImage.type}} listing-entry-company-image--style-{{data.secondaryImage.style}}">
 					<# if ( data.secondaryImage.permalink ) { #><a href="{{data.secondaryImage.permalink}}"><# } #>
 						<img class="listing-entry-company-image__img listing-entry-company-image__img--type-logo listing-entry-company-image__img--style-{{data.secondaryImage.style}}" src="{{{data.secondaryImage.url}}}" alt="{{data.title}}" />
@@ -182,7 +152,7 @@ do_action( 'listify_listing_card_before' );
 					<span class="ion-checkmark-circled"></span>
 				</span>
 			<# } #>
--->
+
 		</footer>
 
 		<# } #>

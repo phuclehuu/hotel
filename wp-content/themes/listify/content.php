@@ -27,10 +27,8 @@ if ( '' == get_the_content() ) {
 
 	<div class="content-box-inner">
 		<?php if ( ! is_singular( 'page' ) ) : ?>
-
 		<div class="entry-meta">
-			<h2 class="entry-title entry-title-change"><?php the_title(); ?></h2>
-			<!-- <span class="entry-author">
+			<span class="entry-author">
 				<?php echo get_avatar( get_the_author_meta( 'ID' ), 50 ); ?>
 				<?php the_author_posts_link(); ?>
 			</span>
@@ -47,39 +45,11 @@ if ( '' == get_the_content() ) {
 
 			<span class="entry-share">
 				<?php do_action( 'listify_share_object' ); ?>
-			</span> -->
+			</span>
 		</div>
 		<?php endif; ?>
 
-		<!-- edit by VICTOR HOANG -->
 		<?php if ( is_singular() ) : ?>
-			<div class="entry-content">
-				<?php the_post_thumbnail(); ?>
-				<?php //the_content(); ?>
-			</div>
-			<div class="entry-summary">
-				<?php the_excerpt(); ?>
-			</div>
-			<?php if ( ! is_singular( 'page' ) ) : ?>
-				<div class="entry-meta">
-
-					<?php
-					    $url = get_the_permalink();
-					    $href = "https://www.facebook.com/sharer/sharer.php?u=" . $url;
-					?>
-					<a class="facebook" href="<?php echo $href; ?>" onclick="window.open(this.href, 'snswindow', 'width=550,height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1'); return false;">
-		                <!-- <span class="icon icon-facebook"></span>
-		                <p></p>
-		                <span>Share</span> -->
-		                <img src="https://misskick.vn/wp-content/themes/misskick-PC/images/button-social/bt-facebook.svg" alt="Smiley face" style="width:100px">
-		            </a>
-					<span class="entry-author f-right">
-						<?php the_author_posts_link(); ?>
-					</span>
-				</div>
-				<div class="clear-both"></div>
-				<hr style="margin: 10px 0px">
-			<?php endif; ?>
 			<div class="entry-content">
 				<?php the_content(); ?>
 			</div>

@@ -11,19 +11,10 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<?php if((is_home() || get_post_type() == 'job_listing') && !is_tax("job_listing_region")) {
-       echo '<meta name="robots" content="noindex,nofollow">';
-    }?>
+
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<?php
-		if(is_tax("job_listing_region")){
-			$queried_object = get_queried_object();
-			$term = $queried_object->name;
-			$count = $queried_object->count;
-			echo '<meta name="description" content="We found ' . $count.' hotels in '.$term.'.EXUTRA is a site introducing hotels specialized in luxury beach resorts and villas in '.$term.'.">';
-		}
-	?>
+
 	<?php wp_head(); ?>
 </head>
 
@@ -84,8 +75,6 @@
 						}
 					?>
 				</div>
-
-				<?php echo listify_partial_site_branding(); ?>
 
 				<?php if ( 'none' !== get_theme_mod( 'nav-search', 'left' ) ) : ?>
 					<a href="#search-navigation" data-toggle="#search-navigation" class="ion-search search-overlay-toggle"></a>

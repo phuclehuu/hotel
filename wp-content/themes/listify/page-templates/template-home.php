@@ -6,7 +6,7 @@
  */
 
 if ( ! listify_has_integration( 'wp-job-manager' ) ) {
-//	return locate_template( array( 'page.php' ), true );
+	return locate_template( array( 'page.php' ), true );
 }
 
 get_header(); ?>

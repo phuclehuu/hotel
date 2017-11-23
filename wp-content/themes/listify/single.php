@@ -7,18 +7,11 @@
 
 get_header(); ?>
 
-	<!-- <div <?php echo apply_filters( 'listify_cover', 'page-cover page-cover--large', array( // WPCS: XSS ok.
+	<div <?php echo apply_filters( 'listify_cover', 'page-cover page-cover--large', array( // WPCS: XSS ok.
 		'size' => 'full',
 	) ); ?>>
 		<h1 class="page-title cover-wrapper"><?php the_post(); the_title(); rewind_posts(); ?></h1>
-	</div> -->
-
-	<div style="clear: both"></div>
-	<section class="top_bar">
-	  <ul class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
-	      <?php get_template_part("templates/tmpl-breadcrumb"); ?>
-	  </ul>
-	</section>
+	</div>
 
 	<div id="primary" class="container">
 		<div class="row content-area">

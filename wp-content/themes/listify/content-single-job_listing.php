@@ -85,7 +85,6 @@ $classes = array(
 				<?php do_action( 'single_job_listing_start' ); ?>
 
 				<?php
-				
 				if ( ! dynamic_sidebar( 'single-job_listing-widget-area' ) ) {
 					$defaults = array(
 					'before_widget' => '<aside class="widget widget-job_listing">',
@@ -94,6 +93,7 @@ $classes = array(
 					'after_title'   => '</h3>',
 					'widget_id'     => '',
 					);
+
 					the_widget(
 						'Listify_Widget_Listing_Map',
 						array(
@@ -143,6 +143,7 @@ $classes = array(
 					);
 				}// End if().
 				?>
+
 				<?php do_action( 'single_job_listing_end' ); ?>
 
 			</main>
