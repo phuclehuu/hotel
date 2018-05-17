@@ -9,6 +9,7 @@
  * @author Astoundify
  */
 
+// H-2 edit
 /**
  * PHP Compat Notice
  *
