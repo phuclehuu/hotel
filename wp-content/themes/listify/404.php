@@ -5,6 +5,7 @@
  * @package Listify
  */
 // H-3 test
+// Add new H 3 test 
 get_header(); ?>
 
 	<div <?php echo apply_filters( 'listify_cover', 'page-cover' ); ?>>
